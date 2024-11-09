@@ -7,6 +7,7 @@ const friendRoutes = require("./routes/friendRoutes");
 const chatRoutes = require("./routes/chatRoutes");
 const activityRoutes = require("./routes/activityRoutes");
 const apiLimiterMiddleware = require("./middlewares/rateLimiterMiddleware");
+const { allowedOrigins } = require("./utils/allowedOrigins");
 
 dotenv.config();
 
